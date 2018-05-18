@@ -7,9 +7,9 @@ end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-if word.match(/\b[aeiou][a-z]*\b/)
+if text.match(/\b[un][a-z]*\b/) && 
  true
-elsif !word.match(/\b[aeiou][a-z]*\b/)
+elsif !text.match(/\b[aeiou][a-z]*\b/)
  false
 end
 
