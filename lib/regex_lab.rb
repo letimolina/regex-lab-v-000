@@ -22,7 +22,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
     true
   else
     false
-
+end
 end
 
 def valid_phone_number?(phone)
@@ -30,4 +30,5 @@ def valid_phone_number?(phone)
     true
   else
     false
+end
 end
