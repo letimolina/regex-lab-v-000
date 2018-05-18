@@ -5,12 +5,15 @@ elsif !word.match(/\b[aeiou][a-z]*\b/)
  false
 end
 end
+end
 
 def words_starting_with_un_and_ending_with_ing(text)
 if text.match(/\A[un]\[ing]*\z/)
  true
 elsif !text.match(/\b[aeiou][a-z]*\b/)
  false
+end
+end
 end
 
 def words_five_letters_long(text)
