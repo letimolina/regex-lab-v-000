@@ -8,10 +8,10 @@ end
 
 
 def words_starting_with_un_and_ending_with_ing(text)
+  array = []
 if text.match(/\A[un][ing]*\z/)
- true
-elsif !text.match(/\b[aeiou][a-z]*\b/)
- false
+ array.push(text)
+ puts array.length
 end
 end
 
