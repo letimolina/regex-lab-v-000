@@ -9,7 +9,6 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   array = []
-  text.length.times do |i|
 if text[i].match(/\A[un][ing]*\z/)
  array.push(text[i])
 print array
